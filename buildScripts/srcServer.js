@@ -1,6 +1,6 @@
 import express from 'express';
-import path  from 'path';
-import open from'open';
+import path from 'path';
+import open from 'open';
 
 const port = 3005;
 const app = express();
