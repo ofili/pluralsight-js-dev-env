@@ -8,7 +8,7 @@ const port = 3005;
 const app = express();
 const compiler = webpack(config);
 
-app.arguments(require(' webpack-dev-middleware')
+app.use(require('webpack-dev-middleware')
     (compiler, {
         noInfo: true,
         publicPath: config.output.publicPath
